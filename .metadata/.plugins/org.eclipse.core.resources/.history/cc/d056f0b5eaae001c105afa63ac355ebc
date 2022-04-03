@@ -1,0 +1,44 @@
+package net.services.JavaWord;
+
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+public class WordWork extends JFrame implements ActionListener{
+	
+	private JMenuBar Archivomb, Insertarmb, Diseñomb, DiseñoPagemb, Referenciasmb, Correspondenciamb, Revisarmb, Vistamb;
+	
+	private JMenu Archivo, Insertar, Diseño, DiseñoPage, Referencias, Correspondencia, Revisar, Vista;
+	
+	private JButton Archivo1, Archivo2, Archivo3 , Archivo4, Archivo5, Archivo6, Archivo7, Archivo8, Archivo9, Archivo10, Archivo11, ArchivoRegreso,
+	Insertar1,Insertar2,Insertar3,Insertar4,Insertar5,Insertar6,Insertar7,Insertar8,Insertar9,Insertar10,Insertar11,Insertar12,Insertar13,Insertar14,
+	Insertar15, Insertar16,Insertar17,Insertar18,Insertar19,Insertar20,Insertar21,Insertar22,Insertar23,Insertar24,Insertar25,Insertar26,Insertar27,
+	Insertar28,Insertar29,Insertar30,Insertar31,Insertar32,Insertar33,Insertar34,Insertar35,Insertar36,Insertar37,Insertar38,Insertar39,Insertar40,
+	Insertar41,Insertar42,Insertar43,Insertar44,Insertar45,Insertar46,Insertar47,Insertar48,Insertar49,Insertar50,Insertar51,Insertar52,Insertar53,
+	Insertar54,Insertar55;
+	
+	private JButton Diseño1, Diseño2, Diseño3, Diseño4, Diseño5, Diseño6, Diseño7, Diseño8, Diseño9, Diseño10, Diseño11, Diseño12,
+	Diseño13,Diseño14,Diseño15,Diseño16,Diseño17,Diseño18,Diseño19,Diseño20,Diseño21,Diseño22,Diseño23,Diseño24,Diseño25;
+	
+	private JButton DiseñoPage1,DiseñoPage2,DiseñoPage3,DiseñoPage4,DiseñoPage5,DiseñoPage6,DiseñoPage7,DiseñoPage8,DiseñoPage9,
+	DiseñoPage10,DiseñoPage11,DiseñoPage12,DiseñoPage13,DiseñoPage14,DiseñoPage15,DiseñoPage16;
+	
+	//Diseño es 16
+	
+	public WordWork() {
+		setLayout(null);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+
+	public static void main(String[] args) {
+		WordWork javaword = new WordWork();
+		javaword.setVisible(true);
+		javaword.setBounds(0,0,1280, 900);
+		javaword.setLocationRelativeTo(null);
+		javaword.setResizable(false);
+	}
+
+}
